@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #793ad1;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+    background: linear-gradient(90deg, rgba(255, 76, 76, 1) 0%, rgba(255, 46, 46,1) 50%, rgba(255, 82, 82, 1) 100%);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000091;
+    overflow: hidden;
+}
+
+.background .shoe{
+    flex: 1 1 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+.background .shoe img{
+    width: 100%;
+}
+
+
+.background .content{
+    flex: 1 1 250px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.background .content span{
+    color: #eee;
+    font-size: 25px;
+}
+
+.background .content h3{
+    color: #fff;
+    font-size: 48px;
+}
+
+.background .content p{
+    color: #eee;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.background .content .btn{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    color: #d63831;
+    text-decoration: none;
+    margin: 5px auto;
+    line-height: 40px;
+    border-radius: 4px;
+}
+
+.background .content .btn:hover{
+    background-color: #e3e3e3;
+}
+
+.background .woman{
+    position: relative;
+    bottom: -33px;
+    padding: 10px;
+    flex: 1 1 250px;
+}
+
+.background .woman img{
+    width: 100%;
+}
+
